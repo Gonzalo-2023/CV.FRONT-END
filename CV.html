@@ -1,0 +1,159 @@
+<!-- Proyecto Final-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="Trabajo Practico" />
+    <meta property="og:type" content="Curriculum Vitae" />
+    <meta property="og:description" content="Este es el proyecto final integrador" />
+
+    <title>Mi Curriculum Vitae</title>
+    <link rel="stylesheet" href="Estilos_CV.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+    
+    <main>
+        <section id="parte_izquierda">
+
+            <div class="perfil-img"><img src="Perfil.jpg"></div>
+            
+            <div class="nombre-titular">
+                <h1 id="nom">MARIO JAVIER MARTÍNEZ</h1>
+                <h3 id="prof">WEBSITE DESIGNER</h3>
+            </div>
+    
+            <div class="box-1">
+			    <div class="titulo">
+				    <h4>CONTACTOS</h4>
+			    </div>
+			    <p class="parrafo1"><i class="material-icons icons1">call</i>+11-23324555</p>
+			    <p class="parrafo1"><i class="material-icons icons1">email</i>info@maritojm.com</p>
+		    </div>
+            
+            <div class="box-1">
+			    <div class="titulo">
+				    <h4>LENGUAJES</h4>
+                </div>
+                
+                <h5>HTML
+                    <div class="skill-container">
+                        <div class="skill html"></div>
+                    </div>
+                </h5>
+                
+                <h5>CSS
+                    <div class="skill-container">
+                        <div class="skill css"></div>
+                    </div>
+                </h5>
+
+                <h5>JAVASCRIPT
+                    <div class="skill-container">
+                        <div class="skill javascript"></div>
+                    </div>
+                </h5>
+
+                <h5>JQUERY
+                    <div class="skill-container">
+                        <div class="skill jquery"></div>
+                    </div>
+                </h5>
+		    </div>
+
+            <div class="box-1">
+                <div class="titulo">
+                    <h4>HABILIDADES</h4>
+                </div>
+    
+                <h5>WEBSITE DESIGN
+                    <div class="skill-container">
+                        <div class="skill web"></div>
+                    </div>
+                </h5>
+    
+                <h5>GRAPHIC DESIGN
+                    <div class="skill-container">
+                        <div class="skill grafic"></div>
+                    </div>
+                </h5>
+            </div>
+            
+            <div class="box-1">
+                <div class="titulo">
+                    <h4>EMPLEOS</h4>
+                </div> 
+                <a href="http://google.com">Enlace Empleo 1</a><br>
+                <a  href="http://facebook.com">Enlace Empleo 2</a><br>
+                <a  href="http://mercadolibre.com.ar">Enlace Empleo 3</a><br>
+            </div>
+        </section>
+
+        <section id="Parte derecha"></section>
+        
+            <div class="box-2">
+			    <h2>SOBRE MI</h2>
+			    <p class="parrafo2">
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                It has survived not only five centuries.
+			    </p>
+		    </div>
+
+            <div class="box-2">
+                <h2>EDUCACIÓN</h2>
+                <p class="parrafo3">2010-2013 <span>Lorem Ipsum is simply dummy</span></p>
+                <p class="parrafo2">
+                    Lorem Ipsum is simply dummy text of 
+                </p>
+                <p class="parrafo3">2013-2016 <span>Lorem Ipsum </span></p>
+                <p class="parrafo2">
+                    Lorem Ipsum is simply dummy text of 
+                </p>
+                <p class="parrafo3">2016-2022 <span>Lorem Ipsum is</span></p>
+                <p class="parrafo2">
+                    Lorem Ipsum is simply dummy text of 
+                </p>
+            </div>
+
+            <form action="" class="form" id="form" autocomplete="off">
+                <h2 class="form-titulo"> CONTÁCTAME</h2><br>
+
+                <div class="form-input">
+                    <input type="text" name="nombre" id="nombre" placeholder="Digite su nombre aquí" size="39">
+                    <label>Nombres</label><br>
+                </div>
+
+                <div class="form-input">
+                    <input type="text" name="apellido" id="apellido" placeholder="Digite su apellido aquí" size="39">
+                    <label>Apellidos</label><br>
+                </div>
+
+                <div class="form-input">
+                    <input type="email" name="email" id="email" placeholder="Digite su email aquí" size="39"><br>
+                    <label>E-mail</label><br>
+                </div>
+
+                <div class="form-input">
+                    <input type="text" name="celular" id="celular" placeholder="Digite su celular aquí" size="39">
+                    <label>Celular</label><br>
+                </div>
+
+                <div class="form-input">
+                    <textarea name="mensaje" id="mensaje" cols="39" rows="5" placeholder="Escriba su mensaje aquí"></textarea>
+                </div>
+
+                <button type="button" size="20" rows="2" onclick="captura()">Enviar</button>
+            </form>
+        </section>
+    </main>   
+        <script src="Funtions_CV.js";></script>
+</body>
+</html>
+
